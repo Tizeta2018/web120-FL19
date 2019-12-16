@@ -1,0 +1,187 @@
+*{
+    padding:0;
+    margin:0;
+}
+#social media {
+    position: fixed;
+    right:5px;
+    
+}
+
+#social media li {
+    list-style-type: none;
+    float:right;
+}
+social media li a i {
+  background: lightblue;
+  color:#fff;
+  width: 20px;
+  padding: 10%;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+body{
+    background:brown;
+    font-family:verdana,helvetica, arial,sans-serif;
+    font-size:90%;
+    background-image: url(../images/cropped-p_20170221_090919.jpg);
+    background-size: cover;
+
+}
+
+#wrapper {
+    margin:30px auto;/*centers my wrapper*/
+    width:940px;
+    background:tan;
+    overflow:hidden;
+    padding:20px;
+}
+
+div.blueberry {
+    width:80%;
+    margin:auto;
+}
+
+main {
+    margin-top: 20px;
+    width:580px;
+    float:left;
+    
+}
+
+aside{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 320px;
+    float: right;
+    background: white;
+    padding:10px;
+}
+img.right{
+    float:right;
+    width:400px;
+    padding:0 30px 20px 0;
+}
+img.first {
+    float:left;
+    margin-right: 10px; 
+}
+
+img.left{
+    float:left;
+    width:600px;
+    padding:0 30px 20px 0;
+}
+img.html5{
+    float:right;
+    width:82px;
+}
+img.center{
+    margin: 0 auto 20px auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+img {
+    display:block;
+}
+
+p {
+    margin-bottom:20px;
+    line-height:1.5;
+    font-size:1em;
+}
+h1{
+    font-size:2em;
+    margin-bottom:7px;
+}
+
+h2{
+    font-size:1.6em;
+     margin-bottom:7px;
+}
+
+header {
+   
+    height: 50px;
+        
+    margin-bottom:30px; 
+}
+
+#logo{
+    width:100px;
+    margin:0 auto;
+    float:left;
+}
+
+nav {
+    height:50px;
+    line-height:50px;
+    background:#ccc;
+    margin-bottom: 20px; 
+}
+
+nav ul {
+    margin-left:20px;
+}
+
+nav li {
+   list-style-type: none;
+    float:left;
+    margin: 0 55px;
+    color:orangered;
+    
+}
+
+nav a {
+    color:orangered
+    text-decoration:none;
+}
+
+footer {
+    background:lightblue;
+    height:50px;
+    line-height:50px;
+    clear:both;
+    font-size:.875em;
+}
+
+footer ul {
+    margin-left:20px;
+}
+
+footer li {
+   list-style-type: none;
+    float:left;
+    margin-right:30px;
+    color:orangered;
+    
+}
+img{
+    max-width:100%;
+}
+
+
+footer a {
+    color:orangered;
+}
